@@ -1,0 +1,296 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+    width: 1024px;
+    margin: 0 auto;
+}
+.menu{
+    padding-right: 20px;
+}
+.header{
+    background: #f6f6f6;
+    overflow: auto;
+    zoom: 1;   
+}
+
+.header ul{
+   float: right;
+  
+}
+.header ul li{
+    float: left;
+    margin: 5px;
+
+}
+.header li img{
+    margin-right: 5px;
+    float: left;
+}
+.header li span{
+    float: left;
+    padding-top: 2px;
+}
+.facebook{
+    border-right: 2px solid #CCCCCC;
+    padding-right: 8px;
+}
+.facebook span{
+    color: #4460a0;
+}
+.twitter span{
+    color: #00abea;
+}
+.header li a{
+    text-decoration: none;
+       
+}
+.header li img{
+    margin-right: 5px;
+}
+.header a:hover{
+    opacity: 0.6;
+    color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu h1 a{
+    background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/logo.png);
+    display: block;
+    width: 224px;
+    height: 50px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space:nowrap;
+}
+.menu h1 a:hover{
+    opacity: 0.3;
+}
+.list{
+    display: flex;
+    align-items: center; 
+}
+.list a{
+    text-decoration: none;
+    color: #00cd99;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+     
+}
+.list a:hover{
+    background: #00cc98;
+    color: white;
+   
+
+}
+.banner h2{
+    font-size: 32px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    line-height: 1.5;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px;  
+}
+.banner{
+    background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 300px;
+    display: flex;
+    align-items: center; 
+       
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;   
+}
+.content h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+.content p,.contentlist li,{
+    line-height: 1.5;
+    
+}
+.contentlist{
+    width: 300px;
+    box-shadow: 0px 2px 3px rgb(177, 176, 176);
+     
+}
+.contentlist li{  
+    list-style: disc; 
+    margin-left: 35px; 
+    line-height: 1.5; 
+    
+}
+.contentlist p{
+    line-height: 1.5;
+    padding:10px 30px 0px 20px;  
+}
+.jQuerylist{
+    padding-bottom: 40px;
+}
+.sheetlist th,.sheetlist td{
+    border-top:1px solid #dddddd ;
+    border-bottom: 1px solid #dddddd;
+    border-spacing: 0;
+    padding: 10px;
+   
+}
+.sheet{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.sheetlist{
+    width: 850px;
+}
+.sheet h2{
+    padding-top: 65px;
+    padding-bottom:30px ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sheetlist th{
+    font-weight: bolder;
+    background-color: #f7f7f7;   
+}
+.tablestyle{
+    color: #00cd99;
+}
+.customerlist{
+    width: 1000px;
+    margin: 0 auto;
+    background:linear-gradient(#00664b,#009972) ;
+    margin-top: 30px;
+    padding:25px 10px 15px 10px;
+}
+
+.customerlist h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.customerlist form{
+    display: flex;
+    
+}
+.customerbox form textarea{
+   width: 460px;
+   height: 250px;
+   margin-left: 20px;
+   margin-right: 40px;
+   border-radius: 3px;
+   border: none;
+   
+}
+.lablelist input{
+    width: 460px;
+    height: 25px;
+    margin-bottom: 25px;
+    margin-top: 3px;
+    border: none;
+    border-radius: 3px;
+}
+.customerlist h2,.lablelist{
+    color: white;
+}
+.submitstyle{
+    float: right;
+    margin-right: 25px;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    border-radius: 3px;
+    background:#00cc98 ;
+    color: white;
+}
+.submitstyle:hover{
+    color: #00664b;
+    transform: scale(1.1);
+    box-shadow: 2px 3px 3px gray;
+}
+input::placeholder {
+    padding-left: 5px;
+    font-size: 13px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 30px;   
+}    
+
+.footer li{
+    margin-bottom: 5px;
+}
+
+.footer a:hover{
+    filter: contrast(30%);
+}
+.connect li span{
+    padding-right: 5px;
+    
+}
+.connect li a{
+    color: #e55995;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 5px;
+}
